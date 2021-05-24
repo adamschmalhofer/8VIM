@@ -45,7 +45,7 @@ public class InputMethodServiceHelper {
     }
 
     private static int loadTheSelectedLanguageLayout(Resources resources, Context context) {
-        String currentLanguageLayout = SharedPreferenceHelper.getInstance(context).getString("current_language_layout", resources.getResourceName(R.raw.en_eight_pen+german));
+        String currentLanguageLayout = SharedPreferenceHelper.getInstance(context).getString("current_language_layout", resources.getResourceName(R.raw.en_eight_pen_german));
 
         String packageName = currentLanguageLayout.substring(0, currentLanguageLayout.indexOf(':'));
         String defType = currentLanguageLayout.substring(currentLanguageLayout.indexOf(':')+1, currentLanguageLayout.indexOf('/'));
