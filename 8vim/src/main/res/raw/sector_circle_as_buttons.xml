@@ -5,6 +5,11 @@
         <movementSequence>TOP;NO_TOUCH;</movementSequence>
         <inputKey>SHIFT_TOGGLE</inputKey>
     </keyboardAction>
+    <keyboardAction>
+        <keyboardActionType>INPUT_KEY</keyboardActionType>
+        <movementSequence>INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;</movementSequence>
+        <inputKey>SHIFT_TOGGLE</inputKey>
+    </keyboardAction>
 
     <keyboardAction>
         <keyboardActionType>INPUT_KEY</keyboardActionType>
@@ -39,6 +44,23 @@
         <keyboardActionType>INPUT_KEY</keyboardActionType>
         <movementSequence>RIGHT;LONG_PRESS;</movementSequence>
         <inputKey>KEYCODE_DEL</inputKey>
+    </keyboardAction>
+    <keyboardAction>
+        <keyboardActionType>INPUT_KEY</keyboardActionType>
+        <movementSequence>INSIDE_CIRCLE;LEFT;INSIDE_CIRCLE;</movementSequence>
+        <inputKey>KEYCODE_DEL</inputKey>
+    </keyboardAction>
+    <keyboardAction>
+        <keyboardActionType>INPUT_TEXT</keyboardActionType>
+        <movementSequence>INSIDE_CIRCLE;RIGHT;INSIDE_CIRCLE;</movementSequence>
+        <inputString></inputString>
+        <inputCapsLockString></inputCapsLockString>
+    </keyboardAction>
+    <keyboardAction>
+        <keyboardActionType>INPUT_TEXT</keyboardActionType>
+        <movementSequence>INSIDE_CIRCLE;BOTTOM;INSIDE_CIRCLE;</movementSequence>
+        <inputString></inputString>
+        <inputCapsLockString></inputCapsLockString>
     </keyboardAction>
 
 </keyboardActionMap>
