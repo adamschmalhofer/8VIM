@@ -53,14 +53,14 @@
     <keyboardAction>
         <keyboardActionType>INPUT_TEXT</keyboardActionType>
         <movementSequence>INSIDE_CIRCLE;RIGHT;INSIDE_CIRCLE;</movementSequence>
-        <inputString></inputString>
-        <inputCapsLockString></inputCapsLockString>
+        <inputString>,</inputString>
+        <inputCapsLockString>;</inputCapsLockString>
     </keyboardAction>
     <keyboardAction>
         <keyboardActionType>INPUT_TEXT</keyboardActionType>
         <movementSequence>INSIDE_CIRCLE;BOTTOM;INSIDE_CIRCLE;</movementSequence>
-        <inputString></inputString>
-        <inputCapsLockString></inputCapsLockString>
+        <inputString>.</inputString>
+        <inputCapsLockString>:</inputCapsLockString>
     </keyboardAction>
 
 </keyboardActionMap>
