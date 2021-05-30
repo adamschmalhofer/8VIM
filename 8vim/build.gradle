@@ -8,11 +8,11 @@ android {
     compileSdkVersion 30
 
     defaultConfig {
-        applicationId "inc.flide.vi8"
+        applicationId "inc.flide.vi8.french"
         minSdkVersion 21
         targetSdkVersion 30
-        versionCode 7
-        versionName "iteration-7"
+        versionCode 1
+        versionName "french-1"
         vectorDrawables.useSupportLibrary = true
 
     }
