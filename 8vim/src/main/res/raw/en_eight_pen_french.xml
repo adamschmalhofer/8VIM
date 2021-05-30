@@ -467,21 +467,21 @@
     <!-- ~~~~~~~~~ -->
     <keyboardAction>
         <keyboardActionType>INPUT_TEXT</keyboardActionType>
-        <movementSequence>INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;RIGHT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
+        <movementSequence>INSIDE_CIRCLE;RIGHT;BOTTOM;RIGHT;INSIDE_CIRCLE;</movementSequence>
         <inputString>ñ</inputString>
         <inputCapsLockString>Ñ</inputCapsLockString>
     </keyboardAction>
 
     <keyboardAction>
         <keyboardActionType>INPUT_TEXT</keyboardActionType>
-        <movementSequence>INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;BOTTOM;LEFT;INSIDE_CIRCLE;</movementSequence>
+        <movementSequence>INSIDE_CIRCLE;BOTTOM;LEFT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
         <inputString>é</inputString>
         <inputCapsLockString>É</inputCapsLockString>
     </keyboardAction>
 
     <keyboardAction>
         <keyboardActionType>INPUT_TEXT</keyboardActionType>
-        <movementSequence>INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;LEFT;TOP;RIGHT;INSIDE_CIRCLE;</movementSequence>
+        <movementSequence>INSIDE_CIRCLE;LEFT;TOP;RIGHT;TOP;INSIDE_CIRCLE;</movementSequence>
         <inputString>ç</inputString>
         <inputCapsLockString>Ç</inputCapsLockString>
     </keyboardAction>
@@ -492,21 +492,21 @@
     <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
     <keyboardAction>
         <keyboardActionType>INPUT_TEXT</keyboardActionType>
-        <movementSequence>INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;RIGHT;BOTTOM;LEFT;TOP;RIGHT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
+        <movementSequence>INSIDE_CIRCLE;RIGHT;BOTTOM;LEFT;TOP;RIGHT;BOTTOM;RIGHT;INSIDE_CIRCLE;</movementSequence>
         <inputString>Ñ</inputString>
         <inputCapsLockString>ñ</inputCapsLockString>
     </keyboardAction>
 
     <keyboardAction>
         <keyboardActionType>INPUT_TEXT</keyboardActionType>
-        <movementSequence>INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;BOTTOM;LEFT;TOP;RIGHT;BOTTOM;LEFT;INSIDE_CIRCLE;</movementSequence>
+        <movementSequence>INSIDE_CIRCLE;BOTTOM;LEFT;TOP;RIGHT;BOTTOM;LEFT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
         <inputString>É</inputString>
         <inputCapsLockString>é</inputCapsLockString>
     </keyboardAction>
 
     <keyboardAction>
         <keyboardActionType>INPUT_TEXT</keyboardActionType>
-        <movementSequence>INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;LEFT;TOP;RIGHT;BOTTOM;LEFT;TOP;RIGHT;INSIDE_CIRCLE;</movementSequence>
+        <movementSequence>INSIDE_CIRCLE;LEFT;TOP;RIGHT;BOTTOM;LEFT;TOP;RIGHT;TOP;INSIDE_CIRCLE;</movementSequence>
         <inputString>Ç</inputString>
         <inputCapsLockString>ç</inputCapsLockString>
     </keyboardAction>
@@ -521,21 +521,21 @@
     <!-- ~~~~~~~~~ -->
     <keyboardAction>
         <keyboardActionType>INPUT_TEXT</keyboardActionType>
-        <movementSequence>INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;RIGHT;TOP;INSIDE_CIRCLE;</movementSequence>
+        <movementSequence>INSIDE_CIRCLE;RIGHT;TOP;RIGHT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
         <inputString>à</inputString>
         <inputCapsLockString>À</inputCapsLockString>
     </keyboardAction>
 
     <keyboardAction>
         <keyboardActionType>INPUT_TEXT</keyboardActionType>
-        <movementSequence>INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;BOTTOM;RIGHT;TOP;INSIDE_CIRCLE;</movementSequence>
+        <movementSequence>INSIDE_CIRCLE;BOTTOM;RIGHT;TOP;RIGHT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
         <inputString>ù</inputString>
         <inputCapsLockString>Ù</inputCapsLockString>
     </keyboardAction>
 
     <keyboardAction>
         <keyboardActionType>INPUT_TEXT</keyboardActionType>
-        <movementSequence>INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;BOTTOM;LEFT;INSIDE_CIRCLE;</movementSequence>
+        <movementSequence>INSIDE_CIRCLE;BOTTOM;LEFT;BOTTOM;RIGHT;INSIDE_CIRCLE;</movementSequence>
         <inputString>è</inputString>
         <inputCapsLockString>È</inputCapsLockString>
     </keyboardAction>
@@ -546,21 +546,21 @@
     <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
     <keyboardAction>
         <keyboardActionType>INPUT_TEXT</keyboardActionType>
-        <movementSequence>INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;RIGHT;TOP;LEFT;BOTTOM;RIGHT;TOP;INSIDE_CIRCLE;</movementSequence>
+        <movementSequence>INSIDE_CIRCLE;RIGHT;TOP;LEFT;BOTTOM;RIGHT;TOP;RIGHT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
         <inputString>À</inputString>
         <inputCapsLockString>à</inputCapsLockString>
     </keyboardAction>
 
     <keyboardAction>
         <keyboardActionType>INPUT_TEXT</keyboardActionType>
-        <movementSequence>INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;BOTTOM;RIGHT;TOP;LEFT;BOTTOM;RIGHT;TOP;INSIDE_CIRCLE;</movementSequence>
+        <movementSequence>INSIDE_CIRCLE;BOTTOM;RIGHT;TOP;LEFT;BOTTOM;RIGHT;TOP;RIGHT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
         <inputString>Ù</inputString>
         <inputCapsLockString>ù</inputCapsLockString>
     </keyboardAction>
 
     <keyboardAction>
         <keyboardActionType>INPUT_TEXT</keyboardActionType>
-        <movementSequence>INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;BOTTOM;LEFT;TOP;RIGHT;BOTTOM;LEFT;INSIDE_CIRCLE;</movementSequence>
+        <movementSequence>INSIDE_CIRCLE;BOTTOM;LEFT;TOP;RIGHT;BOTTOM;LEFT;BOTTOM;RIGHT;INSIDE_CIRCLE;</movementSequence>
         <inputString>È</inputString>
         <inputCapsLockString>è</inputCapsLockString>
     </keyboardAction>
@@ -575,35 +575,35 @@
     <!-- ~~~~~~~~~ -->
     <keyboardAction>
         <keyboardActionType>INPUT_TEXT</keyboardActionType>
-        <movementSequence>INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;RIGHT;TOP;INSIDE_CIRCLE;</movementSequence>
+        <movementSequence>INSIDE_CIRCLE;RIGHT;TOP;RIGHT;BOTTOM;LEFT;INSIDE_CIRCLE;</movementSequence>
         <inputString>â</inputString>
         <inputCapsLockString>Â</inputCapsLockString>
     </keyboardAction>
 
     <keyboardAction>
         <keyboardActionType>INPUT_TEXT</keyboardActionType>
-        <movementSequence>INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;BOTTOM;RIGHT;INSIDE_CIRCLE;</movementSequence>
+        <movementSequence>INSIDE_CIRCLE;BOTTOM;RIGHT;BOTTOM;LEFT;TOP;INSIDE_CIRCLE;</movementSequence>
         <inputString>ô</inputString>
         <inputCapsLockString>Ô</inputCapsLockString>
     </keyboardAction>
 
     <keyboardAction>
         <keyboardActionType>INPUT_TEXT</keyboardActionType>
-        <movementSequence>INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;BOTTOM;RIGHT;TOP;INSIDE_CIRCLE;</movementSequence>
+        <movementSequence>INSIDE_CIRCLE;BOTTOM;RIGHT;TOP;RIGHT;BOTTOM;LEFT;INSIDE_CIRCLE;</movementSequence>
         <inputString>û</inputString>
         <inputCapsLockString>Û</inputCapsLockString>
     </keyboardAction>
 
     <keyboardAction>
         <keyboardActionType>INPUT_TEXT</keyboardActionType>
-        <movementSequence>INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;BOTTOM;LEFT;INSIDE_CIRCLE;</movementSequence>
+        <movementSequence>INSIDE_CIRCLE;BOTTOM;LEFT;BOTTOM;RIGHT;TOP;INSIDE_CIRCLE;</movementSequence>
         <inputString>ê</inputString>
         <inputCapsLockString>Ê</inputCapsLockString>
     </keyboardAction>
 
     <keyboardAction>
         <keyboardActionType>INPUT_TEXT</keyboardActionType>
-        <movementSequence>INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;LEFT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
+        <movementSequence>INSIDE_CIRCLE;LEFT;BOTTOM;LEFT;TOP;RIGHT;INSIDE_CIRCLE;</movementSequence>
         <inputString>î</inputString>
         <inputCapsLockString>Î</inputCapsLockString>
     </keyboardAction>
@@ -614,35 +614,35 @@
     <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
     <keyboardAction>
         <keyboardActionType>INPUT_TEXT</keyboardActionType>
-        <movementSequence>INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;RIGHT;TOP;LEFT;BOTTOM;RIGHT;TOP;INSIDE_CIRCLE;</movementSequence>
+        <movementSequence>INSIDE_CIRCLE;RIGHT;TOP;LEFT;BOTTOM;RIGHT;TOP;RIGHT;BOTTOM;LEFT;INSIDE_CIRCLE;</movementSequence>
         <inputString>Â</inputString>
         <inputCapsLockString>â</inputCapsLockString>
     </keyboardAction>
 
     <keyboardAction>
         <keyboardActionType>INPUT_TEXT</keyboardActionType>
-        <movementSequence>INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;BOTTOM;RIGHT;TOP;LEFT;BOTTOM;RIGHT;INSIDE_CIRCLE;</movementSequence>
+        <movementSequence>INSIDE_CIRCLE;BOTTOM;RIGHT;TOP;LEFT;BOTTOM;RIGHT;BOTTOM;LEFT;TOP;INSIDE_CIRCLE;</movementSequence>
         <inputString>Ô</inputString>
         <inputCapsLockString>ô</inputCapsLockString>
     </keyboardAction>
 
     <keyboardAction>
         <keyboardActionType>INPUT_TEXT</keyboardActionType>
-        <movementSequence>INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;BOTTOM;RIGHT;TOP;LEFT;BOTTOM;RIGHT;TOP;INSIDE_CIRCLE;</movementSequence>
+        <movementSequence>INSIDE_CIRCLE;BOTTOM;RIGHT;TOP;LEFT;BOTTOM;RIGHT;TOP;RIGHT;BOTTOM;LEFT;INSIDE_CIRCLE;</movementSequence>
         <inputString>Û</inputString>
         <inputCapsLockString>û</inputCapsLockString>
     </keyboardAction>
 
     <keyboardAction>
         <keyboardActionType>INPUT_TEXT</keyboardActionType>
-        <movementSequence>INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;BOTTOM;LEFT;TOP;RIGHT;BOTTOM;LEFT;INSIDE_CIRCLE;</movementSequence>
+        <movementSequence>INSIDE_CIRCLE;BOTTOM;LEFT;TOP;RIGHT;BOTTOM;LEFT;BOTTOM;RIGHT;TOP;INSIDE_CIRCLE;</movementSequence>
         <inputString>Ê</inputString>
         <inputCapsLockString>ê</inputCapsLockString>
     </keyboardAction>
 
     <keyboardAction>
         <keyboardActionType>INPUT_TEXT</keyboardActionType>
-        <movementSequence>INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;LEFT;BOTTOM;RIGHT;TOP;LEFT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
+        <movementSequence>INSIDE_CIRCLE;LEFT;BOTTOM;RIGHT;TOP;LEFT;BOTTOM;LEFT;TOP;RIGHT;INSIDE_CIRCLE;</movementSequence>
         <inputString>Î</inputString>
         <inputCapsLockString>î</inputCapsLockString>
     </keyboardAction>
@@ -657,42 +657,42 @@
     <!-- ~~~~~~~~~ -->
     <keyboardAction>
         <keyboardActionType>INPUT_TEXT</keyboardActionType>
-        <movementSequence>INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;RIGHT;INSIDE_CIRCLE;</movementSequence>
+        <movementSequence>INSIDE_CIRCLE;TOP;RIGHT;TOP;LEFT;BOTTOM;RIGHT;INSIDE_CIRCLE;</movementSequence>
         <inputString>ÿ</inputString>
         <inputCapsLockString>Ÿ</inputCapsLockString>
     </keyboardAction>
 
     <keyboardAction>
         <keyboardActionType>INPUT_TEXT</keyboardActionType>
-        <movementSequence>INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;RIGHT;TOP;INSIDE_CIRCLE;</movementSequence>
+        <movementSequence>INSIDE_CIRCLE;RIGHT;TOP;RIGHT;BOTTOM;LEFT;TOP;INSIDE_CIRCLE;</movementSequence>
         <inputString>æ</inputString>
         <inputCapsLockString>Æ</inputCapsLockString>
     </keyboardAction>
 
     <keyboardAction>
         <keyboardActionType>INPUT_TEXT</keyboardActionType>
-        <movementSequence>INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;BOTTOM;RIGHT;INSIDE_CIRCLE;</movementSequence>
+        <movementSequence>INSIDE_CIRCLE;BOTTOM;RIGHT;BOTTOM;LEFT;TOP;RIGHT;INSIDE_CIRCLE;</movementSequence>
         <inputString>œ</inputString>
         <inputCapsLockString>Œ</inputCapsLockString>
     </keyboardAction>
 
     <keyboardAction>
         <keyboardActionType>INPUT_TEXT</keyboardActionType>
-        <movementSequence>INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;BOTTOM;RIGHT;TOP;INSIDE_CIRCLE;</movementSequence>
+        <movementSequence>INSIDE_CIRCLE;BOTTOM;RIGHT;TOP;RIGHT;BOTTOM;LEFT;TOP;INSIDE_CIRCLE;</movementSequence>
         <inputString>ü</inputString>
         <inputCapsLockString>Ü</inputCapsLockString>
     </keyboardAction>
 
     <keyboardAction>
         <keyboardActionType>INPUT_TEXT</keyboardActionType>
-        <movementSequence>INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;BOTTOM;LEFT;INSIDE_CIRCLE;</movementSequence>
+        <movementSequence>INSIDE_CIRCLE;BOTTOM;LEFT;BOTTOM;RIGHT;TOP;LEFT;INSIDE_CIRCLE;</movementSequence>
         <inputString>ë</inputString>
         <inputCapsLockString>Ë</inputCapsLockString>
     </keyboardAction>
 
     <keyboardAction>
         <keyboardActionType>INPUT_TEXT</keyboardActionType>
-        <movementSequence>INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;LEFT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
+        <movementSequence>INSIDE_CIRCLE;LEFT;BOTTOM;LEFT;TOP;RIGHT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
         <inputString>ï</inputString>
         <inputCapsLockString>Ï</inputCapsLockString>
     </keyboardAction>
@@ -703,42 +703,42 @@
     <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
     <keyboardAction>
         <keyboardActionType>INPUT_TEXT</keyboardActionType>
-        <movementSequence>INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;RIGHT;BOTTOM;LEFT;TOP;RIGHT;INSIDE_CIRCLE;</movementSequence>
+        <movementSequence>INSIDE_CIRCLE;TOP;RIGHT;BOTTOM;LEFT;TOP;RIGHT;TOP;LEFT;BOTTOM;RIGHT;INSIDE_CIRCLE;</movementSequence>
         <inputString>Ÿ</inputString>
         <inputCapsLockString>ÿ</inputCapsLockString>
     </keyboardAction>
 
     <keyboardAction>
         <keyboardActionType>INPUT_TEXT</keyboardActionType>
-        <movementSequence>INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;RIGHT;TOP;LEFT;BOTTOM;RIGHT;TOP;INSIDE_CIRCLE;</movementSequence>
+        <movementSequence>INSIDE_CIRCLE;RIGHT;TOP;LEFT;BOTTOM;RIGHT;TOP;RIGHT;BOTTOM;LEFT;TOP;INSIDE_CIRCLE;</movementSequence>
         <inputString>Æ</inputString>
         <inputCapsLockString>æ</inputCapsLockString>
     </keyboardAction>
 
     <keyboardAction>
         <keyboardActionType>INPUT_TEXT</keyboardActionType>
-        <movementSequence>INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;BOTTOM;RIGHT;TOP;LEFT;BOTTOM;RIGHT;INSIDE_CIRCLE;</movementSequence>
+        <movementSequence>INSIDE_CIRCLE;BOTTOM;RIGHT;TOP;LEFT;BOTTOM;RIGHT;BOTTOM;LEFT;TOP;RIGHT;INSIDE_CIRCLE;</movementSequence>
         <inputString>Œ</inputString>
         <inputCapsLockString>œ</inputCapsLockString>
     </keyboardAction>
 
     <keyboardAction>
         <keyboardActionType>INPUT_TEXT</keyboardActionType>
-        <movementSequence>INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;BOTTOM;RIGHT;TOP;LEFT;BOTTOM;RIGHT;TOP;INSIDE_CIRCLE;</movementSequence>
+        <movementSequence>INSIDE_CIRCLE;BOTTOM;RIGHT;TOP;LEFT;BOTTOM;RIGHT;TOP;RIGHT;BOTTOM;LEFT;TOP;INSIDE_CIRCLE;</movementSequence>
         <inputString>Ü</inputString>
         <inputCapsLockString>ü</inputCapsLockString>
     </keyboardAction>
 
     <keyboardAction>
         <keyboardActionType>INPUT_TEXT</keyboardActionType>
-        <movementSequence>INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;BOTTOM;LEFT;TOP;RIGHT;BOTTOM;LEFT;INSIDE_CIRCLE;</movementSequence>
+        <movementSequence>INSIDE_CIRCLE;BOTTOM;LEFT;TOP;RIGHT;BOTTOM;LEFT;BOTTOM;RIGHT;TOP;LEFT;INSIDE_CIRCLE;</movementSequence>
         <inputString>Ë</inputString>
         <inputCapsLockString>ë</inputCapsLockString>
     </keyboardAction>
 
     <keyboardAction>
         <keyboardActionType>INPUT_TEXT</keyboardActionType>
-        <movementSequence>INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;LEFT;BOTTOM;RIGHT;TOP;LEFT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
+        <movementSequence>INSIDE_CIRCLE;LEFT;BOTTOM;RIGHT;TOP;LEFT;BOTTOM;LEFT;TOP;RIGHT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
         <inputString>Ï</inputString>
         <inputCapsLockString>ï</inputCapsLockString>
     </keyboardAction>
@@ -753,7 +753,7 @@
     <!-- ~~~~~~~~~ -->
     <keyboardAction>
         <keyboardActionType>INPUT_TEXT</keyboardActionType>
-        <movementSequence>INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;BOTTOM;LEFT;INSIDE_CIRCLE;</movementSequence>
+        <movementSequence>INSIDE_CIRCLE;BOTTOM;LEFT;BOTTOM;RIGHT;TOP;LEFT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
         <inputString>€</inputString>
         <inputCapsLockString>¢</inputCapsLockString>
     </keyboardAction>
@@ -764,7 +764,7 @@
     <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
     <keyboardAction>
         <keyboardActionType>INPUT_TEXT</keyboardActionType>
-        <movementSequence>INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;TOP;INSIDE_CIRCLE;BOTTOM;LEFT;TOP;RIGHT;BOTTOM;LEFT;INSIDE_CIRCLE;</movementSequence>
+        <movementSequence>INSIDE_CIRCLE;BOTTOM;LEFT;TOP;RIGHT;BOTTOM;LEFT;BOTTOM;RIGHT;TOP;LEFT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
         <inputString>¢</inputString>
         <inputCapsLockString>€</inputCapsLockString>
     </keyboardAction>
