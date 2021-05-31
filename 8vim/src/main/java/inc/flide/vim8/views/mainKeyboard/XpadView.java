@@ -324,8 +324,8 @@ public class XpadView extends View {
     }
 
     private String getCharacterSetToDisplay() {
-        String characterSetSmall = "nomufv!weilhkj@,tscdzg.'yabrpxq?";
-        String characterSetCaps = "NOMUFV!WEILHKJ@_TSCDZG-\"YABRPXQ*";
+        String characterSetSmall = "להמתחד!גיכוקןט@,בשפעךפ.ץנאםרסזצ?";
+        String characterSetCaps = "nomufv!weilhkj@,tscdzg.'yabrpxq?";
 
         if (actionListener.areCharactersCapitalized()) {
             return characterSetCaps;
