@@ -218,7 +218,7 @@
     <keyboardAction>
         <keyboardActionType>INPUT_TEXT</keyboardActionType>
         <movementSequence>INSIDE_CIRCLE;TOP;LEFT;BOTTOM;RIGHT;INSIDE_CIRCLE;</movementSequence>
-        <inputString>פ</inputString>
+        <inputString>ף</inputString>
         <inputCapsLockString>g</inputCapsLockString>
     </keyboardAction>
 
@@ -447,7 +447,7 @@
         <keyboardActionType>INPUT_TEXT</keyboardActionType>
         <movementSequence>INSIDE_CIRCLE;TOP;LEFT;BOTTOM;RIGHT;TOP;LEFT;BOTTOM;RIGHT;INSIDE_CIRCLE;</movementSequence>
         <inputString>g</inputString>
-        <inputCapsLockString>פ</inputCapsLockString>
+        <inputCapsLockString>ף</inputCapsLockString>
     </keyboardAction>
 
     <keyboardAction>
