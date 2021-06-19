@@ -142,7 +142,7 @@
         <keyboardActionType>INPUT_TEXT</keyboardActionType>
         <movementSequence>INSIDE_CIRCLE;BOTTOM;LEFT;TOP;RIGHT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
         <inputString>@</inputString>
-        <inputCapsLockString>@gmail.com</inputCapsLockString>
+        <inputCapsLockString>@</inputCapsLockString>
     </keyboardAction>
 
     <keyboardAction>
@@ -370,7 +370,7 @@
         <keyboardActionType>INPUT_TEXT</keyboardActionType>
         <movementSequence>INSIDE_CIRCLE;BOTTOM;LEFT;TOP;RIGHT;BOTTOM;LEFT;TOP;RIGHT;BOTTOM;INSIDE_CIRCLE;</movementSequence>
         <inputString>@gmail.com</inputString>
-        <inputCapsLockString>@</inputCapsLockString>
+        <inputCapsLockString>@gmail.com</inputCapsLockString>
     </keyboardAction>
 
     <keyboardAction>
@@ -602,7 +602,7 @@
         <keyboardActionType>INPUT_TEXT</keyboardActionType>
         <movementSequence>INSIDE_CIRCLE;BOTTOM;LEFT;TOP;RIGHT;BOTTOM;RIGHT;INSIDE_CIRCLE;</movementSequence>
         <inputString>@</inputString>
-        <inputCapsLockString>@gmail.com</inputCapsLockString>
+        <inputCapsLockString>@</inputCapsLockString>
     </keyboardAction>
 
     <keyboardAction>
@@ -830,7 +830,7 @@
         <keyboardActionType>INPUT_TEXT</keyboardActionType>
         <movementSequence>INSIDE_CIRCLE;BOTTOM;LEFT;TOP;RIGHT;BOTTOM;LEFT;TOP;RIGHT;BOTTOM;RIGHT;INSIDE_CIRCLE;</movementSequence>
         <inputString>@gmail.com</inputString>
-        <inputCapsLockString>@</inputCapsLockString>
+        <inputCapsLockString>@gmail.com</inputCapsLockString>
     </keyboardAction>
 
     <keyboardAction>
