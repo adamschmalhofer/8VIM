@@ -158,7 +158,7 @@ public class SettingsFragment extends PreferenceFragmentCompat
 
     private Map<String, String> findAllAvailableLayouts() {
         Map<String, String> languagesAndLayouts = new TreeMap<>();
-        Field[] fields = R.raw.class.getFields();
+        String[] fields = new String[] { "de_regular_german" };
         for (int count = 0; count < fields.length; count++) {
             LayoutFileName file = new LayoutFileName(fields[count].getName());
             if (file.isValidLayout()) {
