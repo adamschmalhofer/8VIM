@@ -2,6 +2,7 @@ package inc.flide.vim8.keyboardActionListners;
 
 import android.content.Context;
 import android.content.res.Resources;
+import android.net.Uri;
 import android.os.Handler;
 import android.view.View;
 
@@ -16,10 +17,9 @@ import inc.flide.vim8.structures.Constants;
 import inc.flide.vim8.structures.FingerPosition;
 import inc.flide.vim8.structures.MovementSequenceType;
 
-public class MainKeypadActionListener extends KeypadActionListener{
+public class MainKeypadActionListener extends KeypadActionListener {
 
     private final Handler longPressHandler = new Handler();
-    private final View mainKeyboardView;
     private static KeyboardData keyboardData;
     private final List<FingerPosition> movementSequence;
     private FingerPosition currentFingerPosition;
@@ -38,7 +38,6 @@ public class MainKeypadActionListener extends KeypadActionListener{
 
     public MainKeypadActionListener(MainInputMethodService inputMethodService, View view) {
         super(inputMethodService, view);
-        this.mainKeyboardView = view;
 
         keyboardData = mainInputMethodService.buildKeyboardActionMap();
         movementSequence = new ArrayList<>();
@@ -47,6 +46,10 @@ public class MainKeypadActionListener extends KeypadActionListener{
 
     public static void rebuildKeyboardData(Resources resource, Context context) {
         keyboardData = InputMethodServiceHelper.initializeKeyboardActionMap(resource, context);
+    }
+
+    public static void rebuildKeyboardData(Resources resource, Context context, Uri customLayoutUri) {
+        keyboardData = InputMethodServiceHelper.initializeKeyboardActionMapForCustomLayout(resource, context, customLayoutUri);
     }
 
     public String getLowerCaseCharacters() {
@@ -69,7 +72,7 @@ public class MainKeypadActionListener extends KeypadActionListener{
         FingerPosition lastKnownFingerPosition = currentFingerPosition;
         currentFingerPosition = fingerPosition;
 
-        boolean isFingerPositionChanged = (lastKnownFingerPosition != currentFingerPosition);
+        boolean isFingerPositionChanged = lastKnownFingerPosition != currentFingerPosition;
 
         if (isFingerPositionChanged) {
             interruptLongPress();
@@ -95,7 +98,7 @@ public class MainKeypadActionListener extends KeypadActionListener{
         currentMovementSequenceType = MovementSequenceType.NO_MOVEMENT;
     }
 
-    public void movementCanceled(){
+    public void movementCanceled() {
         longPressHandler.removeCallbacks(longPressRunnable);
         isLongPressCallbackSet = false;
         movementSequence.clear();

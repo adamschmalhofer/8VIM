@@ -1,15 +1,15 @@
 package inc.flide.vim8.structures;
 
+import org.apache.commons.lang3.StringUtils;
+
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Locale;
 import java.util.Set;
 
 public class LayoutFileName {
-    private static final Set<String> ISO_LANGUAGES = new HashSet<String>
-            (Arrays.asList(Locale.getISOLanguages()));
-    private static final Set<String> FONT_CODES = new HashSet<String>
-            (Arrays.asList(new String[]{"regular", "bold", "italic", "underline"}));
+    private static final Set<String> ISO_LANGUAGES = new HashSet<String>(Arrays.asList(Locale.getISOLanguages()));
+    private static final Set<String> FONT_CODES = new HashSet<String>(Arrays.asList(new String[]{"regular", "bold", "italic", "underline"}));
 
     private String languageCode;
     private String fontCode;
@@ -26,23 +26,23 @@ public class LayoutFileName {
         languageName = "English";
         isValidLayout = true;
         resourceName = languageCode + "_" + fontCode + "_" + layoutName;
-        layoutDisplayName = layoutName + " (" + languageName + ")";
+        layoutDisplayName = StringUtils.capitalize(layoutName) + " (" + StringUtils.capitalize(languageName) + ")";
     }
 
     public LayoutFileName(String fileName) {
         this();
         String[] nameComponents = fileName.split("_", 3);
-        if (nameComponents.length !=3 ) {
+        if (nameComponents.length != 3) {
             setLayoutValidityFalse();
             return;
         }
-        if (ISO_LANGUAGES.contains(nameComponents[0]) && FONT_CODES.contains(nameComponents[1])) {
+        if (FONT_CODES.contains(nameComponents[1]) {
             resourceName = fileName;
             languageCode = nameComponents[0];
             fontCode = nameComponents[1];
             layoutName = nameComponents[2];
-            languageName = Locale.forLanguageTag(languageCode).getDisplayName(new Locale(languageCode));
-            layoutDisplayName = layoutName + " (" + languageName + ")";
+            languageName = languageCode;
+            layoutDisplayName = StringUtils.capitalize(layoutName) + " (" + StringUtils.capitalize(languageName) + ")";
             isValidLayout = true;
         } else {
             setLayoutValidityFalse();
