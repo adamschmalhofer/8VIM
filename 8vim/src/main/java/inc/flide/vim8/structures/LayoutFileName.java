@@ -36,7 +36,7 @@ public class LayoutFileName {
             setLayoutValidityFalse();
             return;
         }
-        if (FONT_CODES.contains(nameComponents[1]) {
+        if (FONT_CODES.contains(nameComponents[1])) {
             resourceName = fileName;
             languageCode = nameComponents[0];
             fontCode = nameComponents[1];
