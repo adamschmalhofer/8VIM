@@ -32,24 +32,18 @@ public class LayoutFileName {
     public LayoutFileName(String fileName) {
         this();
         String[] nameComponents = fileName.split("_", 3);
-        if (nameComponents.length != 3) {
-            resourceName = fileName;
-            languageCode = "en";
-            fontCode = "regular";
-            layoutName = "Unknown";
-            languageName = languageCode;
-            layoutDisplayName = fileName;
-            isValidLayout = true;
-            isValidLayout = true;
-            return;
-        }
         resourceName = fileName;
         languageCode = nameComponents[0];
-        fontCode = nameComponents[1];
         layoutName = nameComponents[2];
-        languageName = languageCode;
-        layoutDisplayName = StringUtils.capitalize(layoutName) + " (" + StringUtils.capitalize(languageName) + ")";
         isValidLayout = true;
+        if (ISO_LANGUAGES.contains(nameComponents[0]) && FONT_CODES.contains(nameComponents[1])) {
+            languageName = Locale.forLanguageTag(languageCode).getDisplayName(new Locale(languageCode));
+            fontCode = nameComponents[1];
+        } else {
+            languageName = languageCode;
+            fontCode = "regular";
+        }
+        layoutDisplayName = StringUtils.capitalize(layoutName) + " (" + StringUtils.capitalize(languageName) + ")";
     }
 
     private void setLayoutValidityFalse() {
