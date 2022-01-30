@@ -36,12 +36,12 @@ public class LayoutFileName {
             setLayoutValidityFalse();
             return;
         }
-        if (ISO_LANGUAGES.contains(nameComponents[0]) && FONT_CODES.contains(nameComponents[1])) {
+        if (FONT_CODES.contains(nameComponents[1]) {
             resourceName = fileName;
             languageCode = nameComponents[0];
             fontCode = nameComponents[1];
             layoutName = nameComponents[2];
-            languageName = Locale.forLanguageTag(languageCode).getDisplayName(new Locale(languageCode));
+            languageName = languageCode;
             layoutDisplayName = StringUtils.capitalize(layoutName) + " (" + StringUtils.capitalize(languageName) + ")";
             isValidLayout = true;
         } else {
