@@ -158,7 +158,7 @@ public class SettingsFragment extends PreferenceFragmentCompat
 
     private Map<String, String> findAllAvailableLayouts() {
         Map<String, String> languagesAndLayouts = new TreeMap<>();
-        String[] keyboardIds = getStringArray(R.array.keyboard_layouts_id);
+        String[] keyboardIds = getResources().getStringArray(R.array.keyboard_layouts_id);
         for (int count = 0; count < fields.length; count++) {
             LayoutFileName file = new LayoutFileName(fields[count]);
             if (file.isValidLayout()) {
