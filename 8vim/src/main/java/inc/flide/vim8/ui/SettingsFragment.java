@@ -160,7 +160,7 @@ public class SettingsFragment extends PreferenceFragmentCompat
         Map<String, String> languagesAndLayouts = new TreeMap<>();
         String[] fields = new String[] { "de_regular_german" };
         for (int count = 0; count < fields.length; count++) {
-            LayoutFileName file = new LayoutFileName(fields[count].getName());
+            LayoutFileName file = new LayoutFileName(fields[count]);
             if (file.isValidLayout()) {
                 languagesAndLayouts.put(file.getLayoutDisplayName(), file.getResourceName());
             }
